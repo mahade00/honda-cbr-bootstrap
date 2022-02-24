@@ -101,3 +101,35 @@ color: #E76F51;
 /* ----------------------
    featured bike end
 ---------------------- */
+
+/* ----------------------
+  latest news start
+---------------------- */
+.latest-news h1{
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: center;
+color: #0A0826;
+}
+.read-btn{
+    color: white;
+    background-color: #E76F51;
+    height: 57px;
+    width: 157px;
+    border: none;
+    border-radius: 5px;
+}
+.read-btn-blank{
+    color: #E76F51;
+   
+    height: 57px;
+    width: 157px;
+    border:1px solid #E76F51;
+    border-radius: 5px;
+}
+/* ----------------------
+  latest news end
+---------------------- */
