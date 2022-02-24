@@ -105,7 +105,7 @@ color: #E76F51;
 /* ----------------------
   latest news start
 ---------------------- */
-.latest-news h1{
+.latest-news h1, .happy-client h1{
 font-size: 48px;
 font-style: normal;
 font-weight: 600;
@@ -133,3 +133,20 @@ color: #0A0826;
 /* ----------------------
   latest news end
 ---------------------- */
+
+/* ----------------------
+ happy client start
+---------------------- */
+.happy-client span{
+    font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: center;
+color: #E76F51;
+}
+.fa-thin{
+    color: #E76F51;
+    background-color: #E76F51;
+}
