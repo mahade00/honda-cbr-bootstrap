@@ -105,7 +105,7 @@ color: #E76F51;
 /* ----------------------
   latest news start
 ---------------------- */
-.latest-news h1, .happy-client h1{
+.latest-news h1, .happy-client h1, .faq h1{
 font-size: 48px;
 font-style: normal;
 font-weight: 600;
@@ -137,7 +137,7 @@ color: #0A0826;
 /* ----------------------
  happy client start
 ---------------------- */
-.happy-client span{
+.happy-client span, .faq span{
     font-size: 48px;
 font-style: normal;
 font-weight: 600;
