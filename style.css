@@ -11,7 +11,7 @@ body{
     color: rgba(255,255,255,1);
     border-color: rgba(255,255,255,1);
 }
-.login{
+.login,.send-btn{
     height: 44px;
     width: 91px;
     background-color:  #E76F51;    
@@ -123,8 +123,7 @@ color: #0A0826;
     border-radius: 5px;
 }
 .read-btn-blank{
-    color: #E76F51;
-   
+    color: #E76F51;   
     height: 57px;
     width: 157px;
     border:1px solid #E76F51;

@@ -21,7 +21,7 @@
     <header>
         <!-- navbar start  -->
         <section class="conatiner ">
-            <nav class="navbar  navbar-expand-lg navbar-light  " style="background-color: #264653;">
+            <nav class="navbar  navbar-expand-lg navbar-light fixed-top " style="background-color: #264653;">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,13 +34,13 @@
                                 <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="#">Shop</a>
+                                <a class="nav-link active text-white" href="#shop">Shop</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white" href="#">News</a>
+                                <a class="nav-link active text-white" href="#news">News</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-white">Contacts</a>
+                                <a class="nav-link active text-white" href="#contact">Contacts</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active "><button class="login text-white">Login</button></a>
@@ -57,7 +57,7 @@
         <section class="head-banner">
             <div class="container ">
                 <div
-                    class=" row heading-n-para pt-1 justify-content-center align-items-center row-cols-1 row-cols-md-2 row-cols-xxl-2 row-cols-sm-1">
+                    class=" row heading-n-para pt-5 justify-content-center align-items-center row-cols-1 row-cols-md-2 row-cols-xxl-2 row-cols-sm-1">
                     <div class="col">
                         <p class="text-white mt-5">Computer-controlled digital transistorized with electronic advance
                         </p>
@@ -103,7 +103,7 @@
     </header>
     <main>
         <!-- featured bike start  -->
-        <section class="container ftr-bike ">
+        <section class="container ftr-bike " id="shop">
             <div class="  pt-5">
                 <div class="d-flex justify-content-center">
                     <h1>Fetured Bikes 2021</h1>
@@ -127,7 +127,7 @@
         <!-- featured bike end  -->
 
         <!-- latest news start  -->
-        <div class="container latest-news mb-5">
+        <div class="container latest-news mb-5" id="news">
             <h1 class="pb-3"> Latest News</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -178,7 +178,7 @@
         </div>
         <!-- latest news end  -->
 
-        <!-- happy client  -->
+        <!-- happy client start -->
         <section class="container mb-5 ">
             <div class="happy-client pb-5 d-flex justify-content-center ">
                 <h1>Happy <span>Clients says</span> </h1>
@@ -254,15 +254,18 @@
 
             </div>
         </section>
-        <section class="container">
+        <!-- happy client end -->
+
+        <!-- faq start  -->
+        <section class="container mb-5">
             <div class="faq pb-5">
                 <h1>Frequently <span>Asked Questions</span> </h1>
             </div>
             <div class="row g-5 row-cols-1 row-cols-xxl-2 row-cols-md-2 row-cols-lg-2 row-cols-sm-1">
-                <div class="col">
+                <div class="col pe-5">
                     <img src="images/faq.png" class="img-fluid" alt="">
                 </div>
-                <div class="col">
+                <div class="col ps-5">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -347,9 +350,71 @@
                 </div>
             </div>
         </section>
+        <!-- faq end  -->
 
+        <!-- characteristic start  -->
+        <section class="container-fluid bg-dark mt-2">
+            <div class="row row-cols-1 row-cols-xxl-3 row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"><i class="fa-solid fa-charging-station"></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">RAPID CHARGING</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">Full charge in as fast as 1hr.</p>
+                </div>
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"><i class="fa-solid fa-screwdriver-wrench"></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">LOW-TO-NO MAINTENANCE</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">Fluidity without the fluids.</p>
+                </div>
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"> <i class="fa-solid fa-route"></i></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">223MI PEAK RANGE</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">SFO to Sacramento, roundtrip.</p>
+                </div>
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"><i class="fa-solid fa-gauge-simple-high"></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">124MPH TOP SPEED</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">No clutch. No gears. Just go.</p>
+                </div>
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"> <i class="fa-solid fa-brain"></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">CYPHER III+</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">Advanced motorcycle performance customization</p>
+                </div>
+                <div class="col p-5">
+                    <p class="fs-3 fw-bolder text-white text-center"><i class="fa-solid fa-motorcycle"></i></p>
+                    <h3 class="fs-3 fw-bolder text-white text-center">INSTANT TORQUE</h3>
+                    <p class="fs-5 fw-normal text-muted text-center">Up to 140ft/lbs of Torque.</p>
+                </div>
+            </div>
+        </section>
+        <!-- characteristic end  -->
 
+        <!-- contact with us start  -->
+        <section class="container my-5" id="contact">
+            <div class="row justify-content-center">
+                <h1 class="fs-1 fw-bolder text-center pb-3">Contact With Us </h1>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Your Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="e. g. Mahade Hassan">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <a href="#"><button class="send-btn text-white">Send</button></a>
+                </div>
+            </div>
+        </section>
+        <!-- contact with us end  -->
     </main>
+
     <footer>
 
     </footer>
